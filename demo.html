@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form p#basic,
+        form p#advanced {
+            display: none;
+        }
+
+        form>input.course#basic:checked~p#basic {
+            display: block;
+        }
+
+        form>input.course#advanced:checked~p#advanced {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <input type="radio" class="course" name="course" id="basic">
+        <label for="basic">Basic</label>
+        <input type="radio" class="course" name="course" id="advanced">
+        <label for="advanced">Advanced</label>
+        <p id="basic">
+            basic
+        </p>
+        <!-- <p> -->
+        <p id="advanced">
+            advanced
+        </p>
+    </form>
+</body>
+
+</html>
