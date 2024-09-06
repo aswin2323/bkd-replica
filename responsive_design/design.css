@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+* li {
+  font-family: "Hind", system-ui;
+}
+
+body {
+  background-color: black;
+}
+
+.responsive {
+  background-color: white;
+  max-width: 360px;
+  margin-inline: auto;
+}
+.responsive div.nav-icon {
+  padding: 1.5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.responsive div.nav-icon img {
+  width: 150px;
+}
+.responsive div.nav-icon i {
+  color: blue;
+}
+.responsive .navigation ul li {
+  padding: 1rem 1rem;
+  font-size: larger;
+  font-weight: 550;
+  color: #082a5e;
+  list-style: none;
+  border: 0.5px solid #e9eaec;
+}
+.responsive .navigation ul li.free {
+  color: #1363df;
+  padding: 1rem 1rem;
+  font-size: larger;
+  font-weight: 550;
+  list-style: none;
+  border: 0.5px solid #e9eaec;
+}
+.responsive div.design_Button {
+  margin-top: 3rem;
+}
+.responsive div.design_Button ul {
+  display: flex;
+  justify-content: center;
+}
+.responsive div.design_Button ul li {
+  list-style: none;
+}
+.responsive div.design_Button ul li a {
+  color: #fff;
+  background-color: #1363df;
+  font-size: larger;
+  padding: 1rem 1.5rem;
+  text-decoration: none;
+  border: 1px solid #1363df;
+  border-radius: 4px;
+  margin-inline-end: 1.5rem;
+}
+.responsive div ul.social {
+  display: flex;
+  justify-content: center;
+}
+.responsive div ul.social li {
+  list-style: none;
+  margin: 4rem 0 6rem 0;
+  padding-right: 2rem;
+}
+.responsive div ul.social li i {
+  color: #082a5e;
+}
+
+/*# sourceMappingURL=design.css.map */

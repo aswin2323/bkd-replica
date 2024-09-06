@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  background-color: #105cbc;
+  color: white;
+  padding-block: 1.5rem;
+}
+
+ul li.address i {
+  color: white;
+}
+ul li.number i {
+  color: white;
+}
+ul li.social i {
+  color: white;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 4rem;
+  padding-inline: 3rem;
+}
+
+.foot_about {
+  width: 22%;
+  gap: 4px;
+}
+.foot_about img {
+  width: 160px;
+}
+
+.foot_resources_menu, .foot_courses_menu {
+  width: 17%;
+}
+
+.foot_para {
+  margin-bottom: 1rem;
+  color: #a1b0c9;
+}
+
+a {
+  color: #a1b0c9;
+  text-decoration: none;
+}
+
+ul.foot_section {
+  line-height: 24px;
+}
+
+.foot_section_listin, .address, .number, .social {
+  padding-block: 0.3rem;
+  list-style: none;
+}
+
+li.foot_section_list {
+  padding-block: 0.3rem;
+  list-style: none;
+}
+
+li.foot_section_list a {
+  transition: all 0.4s ease-in-out;
+  display: block;
+}
+
+li.foot_section_list a:hover {
+  color: white;
+  text-indent: 1rem;
+}
+
+li.number a:hover {
+  color: white;
+}
+
+li.social i:hover {
+  color: darkgrey;
+}
+
+i {
+  margin-right: 1rem;
+}
+
+span.foot_heading {
+  font-size: x-large;
+  margin-bottom: 4px;
+  display: block;
+}
+
+.foot_Working {
+  width: 19%;
+}
+
+.foot_section_listin_week {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0.5rem;
+}
+
+div.foot_Bottom {
+  padding: 1.5rem 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+div.foot_Bottom .copyright p {
+  color: #8798b3;
+  font-size: large;
+}
+div.foot_Bottom .copyright_policy span {
+  color: #8798b3;
+  font-size: large;
+  padding-right: 1.5rem;
+}
+
+@media only screen and (max-width: 430px) {
+  .foot {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=foot.css.map */

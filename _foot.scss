@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+$bottommargin: 8px;
+$fontsize: x-large;
+$gap: 4px;
+$lineheight: 24px;
+
+footer{
+    background-color: #105cbc;
+    color: white;
+    padding-block: 1.5rem;   
+}
+ul{
+    li.address{
+        i{
+            color: white;
+        }
+    }
+    li.number{
+        i{
+            color: white;
+        }
+    }
+    li.social{
+        i{
+            color: white;
+        }
+    }
+}
+
+.foot{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 4rem;
+    padding-inline: 3rem;
+}
+.foot_about{
+    width: 22%;
+    gap: $gap;
+    img{
+        width: 160px;
+    }
+}
+.foot_resources_menu, .foot_courses_menu{
+    width: 17%;
+}
+.foot_para{
+    margin-bottom: 1rem;
+    color: #a1b0c9;
+}
+a{
+    
+    color: #a1b0c9;
+    text-decoration: none;
+    
+}
+ul.foot_section{
+    line-height: $lineheight;
+    
+}
+.foot_section_listin, .address, .number, .social{
+    padding-block: 0.3rem;
+    // padding-right: 1rem;
+    list-style: none;
+    
+}
+li.foot_section_list{
+    padding-block: 0.3rem;
+    // padding-right: 1rem;
+    list-style: none;
+    // transition: 2s ease-in-out 1s;
+    // position: relative;
+}
+li.foot_section_list a{
+    transition:all 0.4s ease-in-out; 
+    display: block;
+    // position: relative;
+}
+li.foot_section_list a:hover{
+    color: white;
+    text-indent: 1rem;
+}
+li.number a:hover{
+    color: white;
+}
+li.social i:hover{
+    color: darkgrey;
+}
+i{
+    margin-right: 1rem;
+}
+span.foot_heading{
+    font-size: $fontsize;
+    margin-bottom: 4px;
+    display: block;
+}
+.foot_Working{
+    width: 19%;
+}
+.foot_section_listin_week{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.5rem;
+    
+}
+
+div.foot_Bottom{
+    padding: 1.5rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    .copyright{
+        p{
+            color: #8798b3;
+            font-size: large;
+        }
+    }
+    .copyright_policy{
+        span{
+            color: #8798b3;
+            font-size: large;
+            padding-right: 1.5rem;
+        }
+    }
+}
+
+@media only screen and (max-width: 430px){
+    .foot{
+        display: block;
+        
+    }
+    .foot_about{
+        width: 100%;
+        padding-top: 2rem;
+    }
+    .foot_resources_menu, .foot_courses_menu{
+        padding-top: 2rem;
+        width: 100%;
+    }
+    .foot_Working{
+        width: 100%;
+        padding-top: 2rem;
+    }
+    div.foot_Bottom{
+        display: block;
+        padding: 1.5rem 2rem;
+    }
+    div.copyright_policy{
+        padding-top: 1rem;
+        
+    }
+    
+}
